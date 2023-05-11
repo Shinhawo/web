@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>menu list</title>
+<style type="text/css">
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FAFAD2;
+}
+
+li{
+	float: left;
+	border-right: 1px solid #EBFBFF;
+}
+
+
+li:last-child{ 
+	border-right: none;
+}
+
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active){
+	background-color: #EBFFEB;
+}
+
+.active {
+	background-color: #C8FFFF;
+}
+
+
+</style>
+</head>
+<body>
+	<ul>
+		<li><a href="../home.html" class="active">home</a></li>
+		<li><a href="heading.html">heading</a></li>
+		<li><a href="formatting.html">formatting</a></li>
+		<li><a href="list.html">list</a></li>
+		<li><a href="paragraph.html">paragraph</a></li>
+		<li style="float: right"><a href="link.html">link</a></li>
+	</ul>
+</body>
+</html>
